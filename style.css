@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+span {
+    color: red;
+    font-size: 12px;
+}
+
+#success {
+    color: green;
+    text-align: center;
+}
