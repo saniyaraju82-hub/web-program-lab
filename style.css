@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.search {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.news {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.news img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.news h3 {
+    color: darkblue;
+}
