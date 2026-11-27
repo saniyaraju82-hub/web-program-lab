@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+input {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#result {
+    margin: 20px auto;
+    width: 70%;
+}
+
+.item {
+    background: white;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
